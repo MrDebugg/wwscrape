@@ -24,7 +24,6 @@ Output:
 
       [*] Extracing all urls directories and files
 
-
       https://test.com/search=test
       https://test.com/secret/files.html
       https://test.com/shop/products/list,html
