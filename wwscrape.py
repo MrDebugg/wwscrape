@@ -120,5 +120,5 @@ except IndexError:
     except IndexError:
         os.system("clear")
         banner()
-        print ("provide at least one option (a url)\n\nUrl Example: \npython wwscrape.py https://test.com")
+        print ("provide a url\n\nUrl Example: \npython wwscrape.py https://test.com")
         sys.exit(0)
