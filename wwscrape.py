@@ -71,10 +71,11 @@ def crawl(url):
                 link = link.split('#')[0]
             if url in link and link not in target_links:
                 parameter.append(link)
-                sys.stdout.write(ERASE_LINE)
-                sys.stdout.write("[crawling: " + link + "]")
-                sys.stdout.flush()
-                sys.stdout.write(ERASE_LINE)
+                if len(link) < 70:
+                    sys.stdout.write(ERASE_LINE)
+                    sys.stdout.write("[crawling: " + link + "]")
+                    sys.stdout.flush()
+                    sys.stdout.write(ERASE_LINE)
                 target_links.append(link)
                 crawl(link)
     except TypeError:
