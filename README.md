@@ -31,3 +31,20 @@ Output:
       https://test.com/shop/products/
 
       [09:58:15] Done
+
+Bot Protection output:
+
+      __  _  ____  _  ________ ________________  ______   ____
+      \ \/ \/ /\ \/ \/ /  ___// ___\_  __ \__  \ \____ \_/ __ \
+       \     /  \     /\___ \  \___|  | \// __ \|  |_> >  ___/
+        \/\_/    \/\_//____  >\___  >__|  (____  /   __/ \___  >
+                           \/     \/           \/|__|        \/
+                                      by Mrdebugger
+
+      [10:21:28] starting
+
+      [*] Extracing all urls directories and files
+
+
+      [!] the website seems to have some kind of bot protection
+
